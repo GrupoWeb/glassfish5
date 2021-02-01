@@ -1,0 +1,23 @@
+/* AUTOMATICALLY GENERATED ON Thu Feb 20 20:50:58 CST 2020*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebUserDataPermission "/";
+  permission javax.security.jacc.WebResourcePermission "/";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.WebRoleRefPermission "Despacho Servlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Ingreso Servlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "**";
+  permission javax.security.jacc.WebRoleRefPermission "", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Inventario Servlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Usuario Servlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Kardex Servlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Jersey RESTful Application", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Salida Servlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Proveedor Servlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "default", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Requisiciones Servlet", "**";
+};
+
